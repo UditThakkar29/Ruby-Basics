@@ -35,3 +35,4 @@ puts greeting[1]
 puts greeting.include? "o"
 puts greeting.include? "1"
 puts greeting[1,3]
+
