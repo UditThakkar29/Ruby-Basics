@@ -61,10 +61,43 @@ puts Math.log(0)
 puts "What is your Name "
 name = gets
 puts "Hello, #{name}, how are you"
-
+# gets store the enter also so we use chomp to chomp the enter off
 puts "Enter first number: "
 num1 = gets.chomp
 puts "Enter second number: "
 num2 = gets.chomp
 
 puts num1.to_f + num2.to_f
+
+
+#Arrays
+nums = [4,8,"rahul", 4.55, 'a']
+
+nums[0] = "change"
+puts nums[0]
+puts nums[-1]
+puts nums[-2]
+
+
+#same as slice in cpp starts from an index and goes to the length as mentioned
+# in last input
+puts nums[2,3]
+puts "*******************"
+puts nums[2..3] #it includes the last index
+puts nums[2...3] #it excludes the last index
+puts "*******************"
+puts nums.length
+
+grid = [ [1,2], [3,4] ]
+puts grid[0][1]
+
+freshers = []
+freshers.push("Nil")
+freshers.push("Nitin")
+freshers.push("Mukesh")
+
+puts freshers
+freshers.reverse #It is not pass by reference and returns reverse array
+puts freshers
+puts freshers.reverse
+freshers.pop
