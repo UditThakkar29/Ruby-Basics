@@ -34,3 +34,21 @@ puts greeting[1]
 puts greeting.include? "o"
 puts greeting.include? "1"
 puts greeting[1,3]
+
+#Numbers 
+
+puts     2*3
+puts 2**3
+puts 10%3
+puts 1 + 2*3
+puts 10/9.5
+puts 9.5/5
+
+num = 10
+num += 1
+
+puts num+2
+
+num = -568.6
+puts num.abs()
+puts num.round()
