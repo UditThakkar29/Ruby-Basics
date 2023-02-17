@@ -14,6 +14,8 @@ puts arr
 
     pop for removing last ele, shift from start, delete to delete any particular ele
     unique returns array of non repeating ele
+
+    select return a new array of elements following the given condition
 =end
 nums = [1,4,3,5,6,2,7,9]
 puts arr[0,5]
@@ -41,4 +43,5 @@ puts "#{nums}"
 nums.pop()
 nums.shift()
 nums.delete(9)
+puts nums.select{| num |num<4}
 puts "#{nums}"
