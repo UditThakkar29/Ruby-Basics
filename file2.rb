@@ -35,3 +35,11 @@ puts name[0,3]
 
 # get the index of a particular char
 puts name.index("J")
+
+# maths
+puts 2**3
+puts 10%3
+
+#  convert no to string
+num = 20 
+puts ("hello " + num.to_s)
