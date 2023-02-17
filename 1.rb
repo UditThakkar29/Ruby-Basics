@@ -52,3 +52,19 @@ puts num+2
 num = -568.6
 puts num.abs()
 puts num.round()
+
+puts Math.sqrt(143)
+puts Math.log(0)
+
+
+#Taking user input
+puts "What is your Name "
+name = gets
+puts "Hello, #{name}, how are you"
+
+puts "Enter first number: "
+num1 = gets.chomp
+puts "Enter second number: "
+num2 = gets.chomp
+
+puts num1.to_f + num2.to_f
