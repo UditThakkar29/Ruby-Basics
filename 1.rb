@@ -25,6 +25,7 @@ puts 3.to_f
 puts 3.to_s
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Strings
 
 greeting = 'Hello'
@@ -38,3 +39,5 @@ puts greeting.include? "1"
 puts greeting[1,3]
 
 #Numbers 
+=======
+>>>>>>> parent of 5756c6c... strings
