@@ -101,3 +101,26 @@ freshers.reverse #It is not pass by reference and returns reverse array
 puts freshers
 puts freshers.reverse
 freshers.pop
+puts freshers.include? "Nil"
+
+#Functions 
+def console
+    return "hello"
+end
+
+#Works both ways
+puts console
+puts console()
+
+#overloading
+def console(a, b)
+    return a+b
+end
+
+puts console(2,3)
+
+def defaultParamMethod(a, b = 5)
+    return a + b
+end
+
+puts defaultParamMethod(2)
