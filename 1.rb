@@ -25,4 +25,12 @@ puts 3.to_f
 puts 3.to_s
 
 
+greeting = 'Hello'
+greeting = "world"
 
+puts greeting
+puts greeting.length
+puts greeting[1]
+puts greeting.include? "o"
+puts greeting.include? "1"
+puts greeting[1,3]
