@@ -24,6 +24,7 @@ puts 3.14.to_i
 puts 3.to_f
 puts 3.to_s
 
+<<<<<<< HEAD
 #Strings
 
 greeting = 'Hello'
@@ -37,3 +38,5 @@ puts greeting.include? "1"
 puts greeting[1,3]
 
 #Numbers 
+=======
+>>>>>>> ccc6e12b15feda72560cc34633d4e52b86ffa071
