@@ -148,3 +148,52 @@ if 'a' > 'aaa'
     puts "Why"
 end
 
+#Switch statements
+
+var = gets.chomp
+var = var.to_i
+
+case var
+when 0
+    puts "value of var is #{var}"
+when 1
+    puts "value of var is #{var}"
+else
+    puts "value of var is other than 0 and 1 #{var}"
+end
+
+grades =  {
+    "first" =>   1,
+    "second" => 2
+}
+
+grades2=  {
+    first:   1,
+    second: 2
+}
+
+grades3=  {
+    :first =>   1,
+    :second => 2
+}
+
+puts grades2
+# puts grades2[first] it won't work
+puts grades[:first]
+puts grades["first"]
+
+# puts grades2[first] won't work
+puts grades2[:second]
+
+puts grades3[:second]
+puts grades3["second"]
+# puts grades3[second] won't work
+
+grades4 = Hash.new
+grades4["first"] = 1
+
+puts grades4["first"]
+
+grades4 = Hash.new(4)
+
+puts grades4["first"]
