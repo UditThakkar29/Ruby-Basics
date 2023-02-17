@@ -29,3 +29,9 @@ puts name.include? "Wick"
 
 # accesing char in string
 puts name[0]
+
+# get a range of char from string
+puts name[0,3]
+
+# get the index of a particular char
+puts name.index("J")
