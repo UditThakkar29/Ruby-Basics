@@ -197,3 +197,11 @@ puts grades4["first"]
 grades4 = Hash.new(4)
 
 puts grades4["first"]
+
+for i in (1..5) do
+    puts i
+end
+
+for i in (1...5) do
+    puts i
+end
