@@ -11,6 +11,10 @@ puts "The name of person is " + name
 puts "His age is #{age}"
 print "gpa : #{gpa}"
 print " Is he tall #{true}"
+arr = Array("a".."z")
+puts "#{arr}"
+arr = Array("a"..."z")
+puts "#{arr}"
 
 # puts prints in new line whereas print prints in same line
 
@@ -124,3 +128,23 @@ def defaultParamMethod(a, b = 5)
 end
 
 puts defaultParamMethod(2)
+
+is_tall = true
+is_boy = false
+
+if is_tall and is_boy
+    puts "You are a tall boy"
+elsif is_tall and !is_boy
+    puts "You are a tall girl"
+else
+    puts "You are a failure -- in chinese accent"
+end
+
+if 1 >3
+    puts true
+end
+
+if 'a' > 'aaa'
+    puts "Why"
+end
+
