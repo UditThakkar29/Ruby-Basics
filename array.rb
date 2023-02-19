@@ -45,3 +45,8 @@ nums.shift()
 nums.delete(9)
 puts nums.select{| num |num<4}
 puts "#{nums}"
+
+# .select
+arr = [1,2,3,4,5,6,7,8,9]
+puts "#{arr.select{|num| num<5}}"
+puts "#{arr}"
