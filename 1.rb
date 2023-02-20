@@ -205,3 +205,51 @@ end
 for i in (1...5) do
     puts i
 end
+
+
+#Iterators
+
+nums.each do |num|
+    puts "----" + num.to_s + "---"
+end
+
+(0..3).each do |i|
+    print i
+end
+puts
+
+
+
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+b = a.collect{ |y| (5*y)}
+puts b.inspect
+
+
+6.times do |i|
+    print i
+end
+puts
+
+1.upto(7) do |i|
+    print i
+    print " "
+end
+puts
+
+7.downto(1) do |i|
+    print i
+    print " "
+end
+puts
+
+(0..60).step(10) do |i|
+    print i
+    print " "
+end
+puts
+
+"Welcome\nto\nGammastack\nPortal".each_line do |i|
+    puts i    
+end
+
